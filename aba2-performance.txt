@@ -1,0 +1,235 @@
+
+--------------------------------------------------
+(A) BASE-MLP - Hyperparameters: <bound method BaseEstimator.get_params of MLPClassifier(activation='logistic', hidden_layer_sizes=(100, 100),
+              random_state=0, solver='sgd')>
+--------------------------------------------------
+(B) Confusion Matrix:
+[[  0  28 214]
+ [  0 187  95]
+ [  0  53 259]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.00      0.00      0.00       242
+           I       0.70      0.66      0.68       282
+           M       0.46      0.83      0.59       312
+
+    accuracy                           0.53       836
+   macro avg       0.38      0.50      0.42       836
+weighted avg       0.41      0.53      0.45       836
+
+(D) Accuracy: 0.5334928229665071
+    Macro-average F1: 0.4228787878787879
+    Weighted-average F1: 0.44906046107003056
+
+--------------------------------------------------
+(A) TOP-MLP - Hyperparameters: {'activation': 'logistic', 'hidden_layer_sizes': (100, 100), 'random_state': 0, 'solver': 'adam'}
+--------------------------------------------------
+(B) Confusion Matrix:
+[[ 71  38 133]
+ [ 11 227  44]
+ [ 73  75 164]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.46      0.29      0.36       242
+           I       0.67      0.80      0.73       282
+           M       0.48      0.53      0.50       312
+
+    accuracy                           0.55       836
+   macro avg       0.54      0.54      0.53       836
+weighted avg       0.54      0.55      0.54       836
+
+(D) Accuracy: 0.5526315789473685
+    Macro-average F1: 0.5299610823256892
+    Weighted-average F1: 0.5372113439858917
+
+--------------------------------------------------
+(A) BASE-MLP - Hyperparameters: <bound method BaseEstimator.get_params of MLPClassifier(activation='logistic', hidden_layer_sizes=(100, 100),
+              random_state=0, solver='sgd')>
+--------------------------------------------------
+(B) Confusion Matrix:
+[[  0  28 214]
+ [  0 187  95]
+ [  0  53 259]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.00      0.00      0.00       242
+           I       0.70      0.66      0.68       282
+           M       0.46      0.83      0.59       312
+
+    accuracy                           0.53       836
+   macro avg       0.38      0.50      0.42       836
+weighted avg       0.41      0.53      0.45       836
+
+(D) Accuracy: 0.5334928229665071
+    Macro-average F1: 0.4228787878787879
+    Weighted-average F1: 0.44906046107003056
+
+--------------------------------------------------
+(A) TOP-MLP - Hyperparameters: {'activation': 'logistic', 'hidden_layer_sizes': (100, 100), 'random_state': 0, 'solver': 'adam'}
+--------------------------------------------------
+(B) Confusion Matrix:
+[[ 71  38 133]
+ [ 11 227  44]
+ [ 73  75 164]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.46      0.29      0.36       242
+           I       0.67      0.80      0.73       282
+           M       0.48      0.53      0.50       312
+
+    accuracy                           0.55       836
+   macro avg       0.54      0.54      0.53       836
+weighted avg       0.54      0.55      0.54       836
+
+(D) Accuracy: 0.5526315789473685
+    Macro-average F1: 0.5299610823256892
+    Weighted-average F1: 0.5372113439858917
+
+--------------------------------------------------
+(A) BASE-DTC - Hyperparameters: <bound method BaseEstimator.get_params of DecisionTreeClassifier(criterion='entropy')>
+--------------------------------------------------
+(B) Confusion Matrix:
+[[39  0  0]
+ [ 2  8  0]
+ [ 1  0 17]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.93      1.00      0.96        39
+   Chinstrap       1.00      0.80      0.89        10
+      Gentoo       1.00      0.94      0.97        18
+
+    accuracy                           0.96        67
+   macro avg       0.98      0.91      0.94        67
+weighted avg       0.96      0.96      0.95        67
+
+(D) Accuracy: 0.9552238805970149
+    Macro-average F1: 0.9410934744268079
+    Weighted-average F1: 0.9541814735844586
+
+--------------------------------------------------
+(A) BASE-DTC - Hyperparameters: <bound method BaseEstimator.get_params of DecisionTreeClassifier(criterion='entropy')>
+--------------------------------------------------
+(B) Confusion Matrix:
+[[39  0  0]
+ [ 2  8  0]
+ [ 1  0 17]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.93      1.00      0.96        39
+   Chinstrap       1.00      0.80      0.89        10
+      Gentoo       1.00      0.94      0.97        18
+
+    accuracy                           0.96        67
+   macro avg       0.98      0.91      0.94        67
+weighted avg       0.96      0.96      0.95        67
+
+(D) Accuracy: 0.9552238805970149
+    Macro-average F1: 0.9410934744268079
+    Weighted-average F1: 0.9541814735844586
+
+--------------------------------------------------
+(A) TOP-DTC - Hyperparameters: {'criterion': 'entropy', 'max_depth': 6, 'min_samples_split': 2}
+--------------------------------------------------
+
+--------------------------------------------------
+(A) BASE-DTC - Hyperparameters: <bound method BaseEstimator.get_params of DecisionTreeClassifier(criterion='entropy')>
+--------------------------------------------------
+
+--------------------------------------------------
+(A) BASE-DTC - Hyperparameters: <bound method BaseEstimator.get_params of DecisionTreeClassifier(criterion='entropy')>
+--------------------------------------------------
+
+--------------------------------------------------
+(A) BASE-DTC - Hyperparameters: <bound method BaseEstimator.get_params of DecisionTreeClassifier(criterion='entropy')>
+--------------------------------------------------
+(B) Confusion Matrix:
+[[101  35 106]
+ [ 40 166  76]
+ [125  58 129]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.38      0.42      0.40       242
+           I       0.64      0.59      0.61       282
+           M       0.41      0.41      0.41       312
+
+    accuracy                           0.47       836
+   macro avg       0.48      0.47      0.48       836
+weighted avg       0.48      0.47      0.48       836
+
+(D) Accuracy: 0.47368421052631576
+    Macro-average F1: 0.47514712310008994
+    Weighted-average F1: 0.47666592147238535
+
+--------------------------------------------------
+(A) TOP-DTC - Hyperparameters: {'criterion': 'entropy', 'max_depth': 6, 'min_samples_split': 2}
+--------------------------------------------------
+(B) Confusion Matrix:
+[[157  27  58]
+ [ 45 202  35]
+ [143  50 119]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.46      0.65      0.53       242
+           I       0.72      0.72      0.72       282
+           M       0.56      0.38      0.45       312
+
+    accuracy                           0.57       836
+   macro avg       0.58      0.58      0.57       836
+weighted avg       0.59      0.57      0.57       836
+
+(D) Accuracy: 0.5717703349282297
+    Macro-average F1: 0.5697548049299705
+    Weighted-average F1: 0.567274623933913
+
+--------------------------------------------------
+(A) BASE-MLP - Hyperparameters: <bound method BaseEstimator.get_params of MLPClassifier(activation='logistic', hidden_layer_sizes=(100, 100),
+              random_state=0, solver='sgd')>
+--------------------------------------------------
+(B) Confusion Matrix:
+[[  0  28 214]
+ [  0 187  95]
+ [  0  53 259]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.00      0.00      0.00       242
+           I       0.70      0.66      0.68       282
+           M       0.46      0.83      0.59       312
+
+    accuracy                           0.53       836
+   macro avg       0.38      0.50      0.42       836
+weighted avg       0.41      0.53      0.45       836
+
+(D) Accuracy: 0.5334928229665071
+    Macro-average F1: 0.4228787878787879
+    Weighted-average F1: 0.44906046107003056
+
+--------------------------------------------------
+(A) TOP-MLP - Hyperparameters: {'activation': 'logistic', 'hidden_layer_sizes': (100, 100), 'random_state': 0, 'solver': 'adam'}
+--------------------------------------------------
+(B) Confusion Matrix:
+[[ 71  38 133]
+ [ 11 227  44]
+ [ 73  75 164]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.46      0.29      0.36       242
+           I       0.67      0.80      0.73       282
+           M       0.48      0.53      0.50       312
+
+    accuracy                           0.55       836
+   macro avg       0.54      0.54      0.53       836
+weighted avg       0.54      0.55      0.54       836
+
+(D) Accuracy: 0.5526315789473685
+    Macro-average F1: 0.5299610823256892
+    Weighted-average F1: 0.5372113439858917
