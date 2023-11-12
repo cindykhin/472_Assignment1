@@ -1,0 +1,45 @@
+
+--------------------------------------------------
+(A) BASE-MLP - Hyperparameters: <bound method BaseEstimator.get_params of MLPClassifier(activation='logistic', hidden_layer_sizes=(100, 100),
+              random_state=0, solver='sgd')>
+--------------------------------------------------
+(B) Confusion Matrix:
+[[  0  28 214]
+ [  0 187  95]
+ [  0  53 259]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.00      0.00      0.00       242
+           I       0.70      0.66      0.68       282
+           M       0.46      0.83      0.59       312
+
+    accuracy                           0.53       836
+   macro avg       0.38      0.50      0.42       836
+weighted avg       0.41      0.53      0.45       836
+
+(D) Accuracy: 0.5334928229665071
+    Macro-average F1: 0.4228787878787879
+    Weighted-average F1: 0.44906046107003056
+
+--------------------------------------------------
+(A) TOP-MLP - Hyperparameters: {'activation': 'logistic', 'hidden_layer_sizes': (100, 100), 'random_state': 0, 'solver': 'adam'}
+--------------------------------------------------
+(B) Confusion Matrix:
+[[ 71  38 133]
+ [ 11 227  44]
+ [ 73  75 164]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.46      0.29      0.36       242
+           I       0.67      0.80      0.73       282
+           M       0.48      0.53      0.50       312
+
+    accuracy                           0.55       836
+   macro avg       0.54      0.54      0.53       836
+weighted avg       0.54      0.55      0.54       836
+
+(D) Accuracy: 0.5526315789473685
+    Macro-average F1: 0.5299610823256892
+    Weighted-average F1: 0.5372113439858917

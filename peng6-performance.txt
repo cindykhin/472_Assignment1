@@ -1,0 +1,45 @@
+
+--------------------------------------------------
+(A) BASE-MLP - Hyperparameters: <bound method BaseEstimator.get_params of MLPClassifier(activation='logistic', hidden_layer_sizes=(100, 100),
+              random_state=0)>
+--------------------------------------------------
+(B) Confusion Matrix:
+[[30  3  6]
+ [ 4  6  0]
+ [ 1  0 17]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.86      0.77      0.81        39
+   Chinstrap       0.67      0.60      0.63        10
+      Gentoo       0.74      0.94      0.83        18
+
+    accuracy                           0.79        67
+   macro avg       0.75      0.77      0.76        67
+weighted avg       0.80      0.79      0.79        67
+
+(D) Accuracy: 0.7910447761194029
+    Macro-average F1: 0.7572193502873862
+    Weighted-average F1: 0.7890185128895301
+
+--------------------------------------------------
+(A) TOP-MLP - Hyperparameters: {'activation': 'logistic', 'hidden_layer_sizes': (100, 100), 'random_state': 0, 'solver': 'adam'}
+--------------------------------------------------
+(B) Confusion Matrix:
+[[29  4  6]
+ [ 2  8  0]
+ [ 0  0 18]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.94      0.74      0.83        39
+   Chinstrap       0.67      0.80      0.73        10
+      Gentoo       0.75      1.00      0.86        18
+
+    accuracy                           0.82        67
+   macro avg       0.78      0.85      0.80        67
+weighted avg       0.85      0.82      0.82        67
+
+(D) Accuracy: 0.8208955223880597
+    Macro-average F1: 0.8043290043290043
+    Weighted-average F1: 0.8211281256057376
