@@ -32,5 +32,3 @@
 7. Click "OK" on all the windows to close them.
 
 8. Restart your Jupyter Notebook and try running the code again.
-
-Let me know if this helps!
