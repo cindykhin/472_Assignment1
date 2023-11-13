@@ -1,0 +1,129 @@
+
+--------------------------------------------------
+(A) BASE-DTC - Hyperparameters: <bound method BaseEstimator.get_params of DecisionTreeClassifier(criterion='entropy')>
+--------------------------------------------------
+(B) Confusion Matrix:
+[[ 96  36 110]
+ [ 36 169  77]
+ [126  62 124]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.37      0.40      0.38       242
+           I       0.63      0.60      0.62       282
+           M       0.40      0.40      0.40       312
+
+    accuracy                           0.47       836
+   macro avg       0.47      0.46      0.47       836
+weighted avg       0.47      0.47      0.47       836
+
+(D) Accuracy: 0.465311004784689
+    Macro-average F1: 0.4659128938163752
+    Weighted-average F1: 0.4673977550920285
+
+--------------------------------------------------
+(A) TOP-DTC - Hyperparameters: {'criterion': 'entropy', 'max_depth': 6, 'min_samples_split': 3}
+--------------------------------------------------
+(B) Confusion Matrix:
+[[157  27  58]
+ [ 45 202  35]
+ [143  50 119]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.46      0.65      0.53       242
+           I       0.72      0.72      0.72       282
+           M       0.56      0.38      0.45       312
+
+    accuracy                           0.57       836
+   macro avg       0.58      0.58      0.57       836
+weighted avg       0.59      0.57      0.57       836
+
+(D) Accuracy: 0.5717703349282297
+    Macro-average F1: 0.5697548049299705
+    Weighted-average F1: 0.567274623933913
+
+--------------------------------------------------
+(A) BASE-MLP - Hyperparameters: <bound method BaseEstimator.get_params of MLPClassifier(activation='logistic', hidden_layer_sizes=(100, 100),
+              max_iter=1000, random_state=0, solver='sgd')>
+--------------------------------------------------
+(B) Confusion Matrix:
+[[ 32  33 177]
+ [  2 211  69]
+ [ 37  61 214]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.45      0.13      0.20       242
+           I       0.69      0.75      0.72       282
+           M       0.47      0.69      0.55       312
+
+    accuracy                           0.55       836
+   macro avg       0.54      0.52      0.49       836
+weighted avg       0.54      0.55      0.51       836
+
+(D) Accuracy: 0.5466507177033493
+    Macro-average F1: 0.4925955663066741
+    Weighted-average F1: 0.508599353719807
+
+--------------------------------------------------
+(A) TOP-MLP - Hyperparameters: {'activation': 'logistic', 'hidden_layer_sizes': (100, 100), 'random_state': 0, 'solver': 'adam'}
+--------------------------------------------------
+(B) Confusion Matrix:
+[[ 71  38 133]
+ [ 11 227  44]
+ [ 73  75 164]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+           F       0.46      0.29      0.36       242
+           I       0.67      0.80      0.73       282
+           M       0.48      0.53      0.50       312
+
+    accuracy                           0.55       836
+   macro avg       0.54      0.54      0.53       836
+weighted avg       0.54      0.55      0.54       836
+
+(D) Accuracy: 0.5526315789473685
+    Macro-average F1: 0.5299610823256892
+    Weighted-average F1: 0.5372113439858917
+
+--------------------------------------------------
+BASE-DTC - Part 6: Averages and Variance
+--------------------------------------------------
+(A) Average accuracy: 0.47655502392344495
+    Variance: 5.8377784391382915e-05
+(B) Average macro-average: 0.47735069063817787
+    Variance: 5.613274959098989e-05
+(C) Average weighted-average: 0.4788172015983073
+    Variance: 5.615530057628654e-05
+
+--------------------------------------------------
+TOP-DTC - Part 6: Averages and Variance
+--------------------------------------------------
+(A) Average accuracy: 0.5717703349282297
+    Variance: 0.0
+(B) Average macro-average: 0.5697548049299705
+    Variance: 0.0
+(C) Average weighted-average: 0.567274623933913
+    Variance: 0.0
+
+--------------------------------------------------
+BASE-MLP - Part 6: Averages and Variance
+--------------------------------------------------
+(A) Average accuracy: 0.5466507177033493
+    Variance: 0.0
+(B) Average macro-average: 0.4925955663066741
+    Variance: 0.0
+(C) Average weighted-average: 0.508599353719807
+    Variance: 0.0
+
+--------------------------------------------------
+TOP-MLP - Part 6: Averages and Variance
+--------------------------------------------------
+(A) Average accuracy: 0.5526315789473685
+    Variance: 0.0
+(B) Average macro-average: 0.5299610823256892
+    Variance: 0.0
+(C) Average weighted-average: 0.5372113439858917
+    Variance: 0.0

@@ -1,0 +1,218 @@
+
+--------------------------------------------------
+(A) BASE-DTC - Hyperparameters: <bound method BaseEstimator.get_params of DecisionTreeClassifier(criterion='entropy')>
+--------------------------------------------------
+(B) Confusion Matrix:
+[[38  1  0]
+ [ 3  7  0]
+ [ 0  0 18]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.93      0.97      0.95        39
+   Chinstrap       0.88      0.70      0.78        10
+      Gentoo       1.00      1.00      1.00        18
+
+    accuracy                           0.94        67
+   macro avg       0.93      0.89      0.91        67
+weighted avg       0.94      0.94      0.94        67
+
+(D) Accuracy: 0.9402985074626866
+    Macro-average F1: 0.9092592592592593
+    Weighted-average F1: 0.9377280265339968
+
+--------------------------------------------------
+(A) TOP-DTC - Hyperparameters: {'criterion': 'gini', 'max_depth': 6, 'min_samples_split': 5}
+--------------------------------------------------
+(B) Confusion Matrix:
+[[39  0  0]
+ [ 2  8  0]
+ [ 1  0 17]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.93      1.00      0.96        39
+   Chinstrap       1.00      0.80      0.89        10
+      Gentoo       1.00      0.94      0.97        18
+
+    accuracy                           0.96        67
+   macro avg       0.98      0.91      0.94        67
+weighted avg       0.96      0.96      0.95        67
+
+(D) Accuracy: 0.9552238805970149
+    Macro-average F1: 0.9410934744268079
+    Weighted-average F1: 0.9541814735844586
+
+--------------------------------------------------
+(A) BASE-MLP - Hyperparameters: <bound method BaseEstimator.get_params of MLPClassifier(activation='logistic', hidden_layer_sizes=(100, 100),
+              max_iter=1000, random_state=0)>
+--------------------------------------------------
+(B) Confusion Matrix:
+[[36  0  3]
+ [ 4  6  0]
+ [ 0  0 18]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.90      0.92      0.91        39
+   Chinstrap       1.00      0.60      0.75        10
+      Gentoo       0.86      1.00      0.92        18
+
+    accuracy                           0.90        67
+   macro avg       0.92      0.84      0.86        67
+weighted avg       0.90      0.90      0.89        67
+
+(D) Accuracy: 0.8955223880597015
+    Macro-average F1: 0.861489776046738
+    Weighted-average F1: 0.8904431106395965
+
+--------------------------------------------------
+(A) TOP-MLP - Hyperparameters: {'activation': 'logistic', 'hidden_layer_sizes': (100, 100), 'random_state': 0, 'solver': 'adam'}
+--------------------------------------------------
+(B) Confusion Matrix:
+[[36  0  3]
+ [ 4  6  0]
+ [ 0  0 18]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.90      0.92      0.91        39
+   Chinstrap       1.00      0.60      0.75        10
+      Gentoo       0.86      1.00      0.92        18
+
+    accuracy                           0.90        67
+   macro avg       0.92      0.84      0.86        67
+weighted avg       0.90      0.90      0.89        67
+
+(D) Accuracy: 0.8955223880597015
+    Macro-average F1: 0.861489776046738
+    Weighted-average F1: 0.8904431106395965
+
+--------------------------------------------------
+(A) BASE-DTC - Hyperparameters: <bound method BaseEstimator.get_params of DecisionTreeClassifier(criterion='entropy')>
+--------------------------------------------------
+(B) Confusion Matrix:
+[[38  1  0]
+ [ 3  7  0]
+ [ 0  0 18]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.93      0.97      0.95        39
+   Chinstrap       0.88      0.70      0.78        10
+      Gentoo       1.00      1.00      1.00        18
+
+    accuracy                           0.94        67
+   macro avg       0.93      0.89      0.91        67
+weighted avg       0.94      0.94      0.94        67
+
+(D) Accuracy: 0.9402985074626866
+    Macro-average F1: 0.9092592592592593
+    Weighted-average F1: 0.9377280265339968
+
+--------------------------------------------------
+(A) TOP-DTC - Hyperparameters: {'criterion': 'gini', 'max_depth': 6, 'min_samples_split': 5}
+--------------------------------------------------
+(B) Confusion Matrix:
+[[39  0  0]
+ [ 2  8  0]
+ [ 1  0 17]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.93      1.00      0.96        39
+   Chinstrap       1.00      0.80      0.89        10
+      Gentoo       1.00      0.94      0.97        18
+
+    accuracy                           0.96        67
+   macro avg       0.98      0.91      0.94        67
+weighted avg       0.96      0.96      0.95        67
+
+(D) Accuracy: 0.9552238805970149
+    Macro-average F1: 0.9410934744268079
+    Weighted-average F1: 0.9541814735844586
+
+--------------------------------------------------
+(A) BASE-MLP - Hyperparameters: <bound method BaseEstimator.get_params of MLPClassifier(activation='logistic', hidden_layer_sizes=(100, 100),
+              max_iter=1000, random_state=0)>
+--------------------------------------------------
+(B) Confusion Matrix:
+[[36  0  3]
+ [ 4  6  0]
+ [ 0  0 18]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.90      0.92      0.91        39
+   Chinstrap       1.00      0.60      0.75        10
+      Gentoo       0.86      1.00      0.92        18
+
+    accuracy                           0.90        67
+   macro avg       0.92      0.84      0.86        67
+weighted avg       0.90      0.90      0.89        67
+
+(D) Accuracy: 0.8955223880597015
+    Macro-average F1: 0.861489776046738
+    Weighted-average F1: 0.8904431106395965
+
+--------------------------------------------------
+(A) TOP-MLP - Hyperparameters: {'activation': 'logistic', 'hidden_layer_sizes': (100, 100), 'random_state': 0, 'solver': 'adam'}
+--------------------------------------------------
+(B) Confusion Matrix:
+[[36  0  3]
+ [ 4  6  0]
+ [ 0  0 18]]
+(C) Classification Report:
+              precision    recall  f1-score   support
+
+      Adelie       0.90      0.92      0.91        39
+   Chinstrap       1.00      0.60      0.75        10
+      Gentoo       0.86      1.00      0.92        18
+
+    accuracy                           0.90        67
+   macro avg       0.92      0.84      0.86        67
+weighted avg       0.90      0.90      0.89        67
+
+(D) Accuracy: 0.8955223880597015
+    Macro-average F1: 0.861489776046738
+    Weighted-average F1: 0.8904431106395965
+
+--------------------------------------------------
+BASE-DTC - Part 6: Averages and Variance
+--------------------------------------------------
+(A) Average accuracy: 0.9522388059701493
+    Variance: 0.0002673201158387164
+(B) Average macro-average: 0.9274074074074073
+    Variance: 0.0006175411522633721
+(C) Average weighted-average: 0.9501824212271973
+    Variance: 0.0002908349009512946
+
+--------------------------------------------------
+TOP-DTC - Part 6: Averages and Variance
+--------------------------------------------------
+(A) Average accuracy: 0.9552238805970148
+    Variance: 0.00011138338159946518
+(B) Average macro-average: 0.9374338624338625
+    Variance: 0.0002824202383285273
+(C) Average weighted-average: 0.9538272921108742
+    Variance: 0.00012141641719763813
+
+--------------------------------------------------
+BASE-MLP - Part 6: Averages and Variance
+--------------------------------------------------
+(A) Average accuracy: 0.8955223880597016
+    Variance: 0.0
+(B) Average macro-average: 0.861489776046738
+    Variance: 0.0
+(C) Average weighted-average: 0.9501824212271973
+    Variance: 0.0
+
+--------------------------------------------------
+TOP-MLP - Part 6: Averages and Variance
+--------------------------------------------------
+(A) Average accuracy: 0.8955223880597016
+    Variance: 0.0
+(B) Average macro-average: 0.861489776046738
+    Variance: 0.0
+(C) Average weighted-average: 0.8904431106395965
+    Variance: 0.0
