@@ -7,6 +7,7 @@
     - imageio
     - numpy
     - graphviz
+- download Graphviz. After that, open system variables in environmental variables. Locate 'path' variable. Press edit. Add Graphviz/bin file-path to it. It will look like C:\Program Files\Graphviz\bin . press OK on all sub windows opened. 
 - This project contains two datasets: penguins.csv and abalone.csv. These datasets will be loaded in the project when prompted by the program.
 ## How to Run Code
 1. Open the folder hosting the project in your desired IDE.
