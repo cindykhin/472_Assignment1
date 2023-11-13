@@ -13,9 +13,9 @@
 1. Open the folder hosting the project in your desired IDE.
 2. Open the Jupyter Notebook (assignment1.ipynb)
 3. Run every cell of assignment1.ipynb from top to bottom.
-    - When prompted, copy path of datasets on your computer and paste them in the user input. This will load the datasets in the Jupyter Notebook.
+    - When prompted, copy path of datasets on your computer and paste them into the user input. This will load the datasets in the Jupyter Notebook.
     - When prompted, enter path on your computer in which you desire to store the images/gifs for each dataset.
-## How to enable Grphviz
+## How to enable Graphviz
 
 1. Find the path to the Graphviz bin folder. This is usually located in `C:\Program Files (x86)\Graphviz2.38\bin` or `C:\Program Files\Graphviz\bin`, depending on your installation.
 
