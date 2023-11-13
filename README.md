@@ -15,3 +15,22 @@
 3. Run every cell of assignment1.ipynb from top to bottom.
     - When prompted, copy path of datasets on your computer and paste them in the user input. This will load the datasets in the Jupyter Notebook.
     - When prompted, enter path on your computer in which you desire to store the images/gifs for each dataset.
+## How to enable Grphviz
+
+1. Find the path to the Graphviz bin folder. This is usually located in `C:\Program Files (x86)\Graphviz2.38\bin` or `C:\Program Files\Graphviz\bin`, depending on your installation.
+
+2. Open the Start menu and search for "Environment Variables".
+
+3. Click on "Edit the system environment variables".
+
+4. Click on the "Environment Variables" button.
+
+5. Under "System Variables", scroll down and find the "Path" variable. Click on "Edit".
+
+6. Click on "New" and add the path to the Graphviz bin folder.
+
+7. Click "OK" on all the windows to close them.
+
+8. Restart your Jupyter Notebook and try running the code again.
+
+Let me know if this helps!
